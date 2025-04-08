@@ -19,7 +19,7 @@ Desktop View:
 
 Mobile View:
 <a href="#">
-<img src="blog1.png" alt="Blog-Preview-Card-Mobile-View">
+<img src="blog2.png" alt="Blog-Preview-Card-Mobile-View">
 </a>
 
 
@@ -74,7 +74,8 @@ Advanced CSS, Javascript integration, Web Accessibility, Performance optimisatio
 
 Author: Jonathan Peters
 Website: https://qms85.github.io/MyPortfolio/
-Frontend Mentor - @yourusername
+Frontend Mentor: https://www.frontendmentor.io/profile/QMS85
 Twitter - @yDJJOnnas85
-
+Facebook: https://www.facebook.com/2jonathanpeters 
+Linkedin: https://www.linkedin/in/2jonathanpeters
 
