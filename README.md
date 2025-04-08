@@ -1,38 +1,29 @@
-Frontend Mentor - Blog preview card solution
+# Frontend Mentor - Blog preview card solution
 
 This is a solution to the Blog preview card challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-Table of contents
-Overview
-The challenge
-Screenshot
-Links
-My process
-Built with
-What I learned
-Continued development
-Useful resources
-Author
-Acknowledgments
-Note: Delete this note and update the table of contents based on what sections you keep.
+Tab
 
-Overview
-The challenge
+# Overview
+## The challenge: 
+
 Users should be able to:
-
 See hover and focus states for all interactive elements on the page
-Screenshot
-Unsupported image
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
-Alternatively, you can use a tool like FireShot to take the screenshot. FireShot has a free option, so you don't need to purchase it.
+Desktop View:
+<a href="#">
+<img src="blog.png" alt="Blog-Preview-Card-Desktop-View">
+</a>
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
-Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.
+Mobile View:
+<a href="#">
+<img src="blog1.png" alt="Blog-Preview-Card-Mobile-View">
+</a>
 
-Links
+
+# Links
 Solution URL: Add solution URL here
 Live Site URL: Add live site URL here
 My process
@@ -41,37 +32,45 @@ Semantic HTML5 markup
 CSS custom properties
 Flexbox
 CSS Grid
-Mobile-first workflow
-React - JS library
-Next.js - React framework
-Styled Components - For styles
-Note: These are just examples. Delete this note and replace the list above with your own choices
 
-What I learned
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
-To see how you can add code snippets, see below:
+# What I learned
+Looking at your blog preview card project, there are several impressive aspects worth highlighting:
 
-<h1>Some HTML code I'm proud of</h1>
-.proud-of-this-css {
-  color: papayawhip;
+## 1. Clean and Semantic HTML Structure:
+The HTML in index.html is well-organized using semantic elements like ```<main>```, ```<article>```, and appropriate content hierarchy.
+This shows good attention to accessibility and SEO practices.
+
+## 2. Sophisticated CSS Hover Effects:
+The card hover animation in style.css is particularly elegant:
+```
+.card:hover {
+  box-shadow: 12px 12px 0 var(--gray-950);
+  transform: translate(-4px, -4px);
 }
-const proudOfThisFunc = () => {
-  console.log('🎉')
+```
+This creates a smooth, engaging lift effect that enhances user interaction while maintaining simplicity.
+
+## 3. Responsive Design:
+The mobile-first approach with a clean media query breakpoint at 375px shows good responsive design practices.
+
+## 4. CSS Custom Properties:
+The use of CSS variables (custom properties) for colors makes the code more maintainable and consistent:
+```
+:root {
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --gray-500: hsl(0, 0%, 42%);
+  --gray-950: hsl(0, 0%, 7%);
 }
-If you want more help with writing markdown, we'd recommend checking out The Markdown Guide to learn more.
+```
 
-Note: Delete this note and the content within this section and replace with your own learnings.
+## 5. Performance Optimization:
+Using modern image formats (webp) for the avatar image and SVG for illustrations shows consideration for performance.
 
-Continued development
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+# Continued development:
 
-Note: Delete this note and the content within this section and replace with your own plans for continued development.
-
-Useful resources
-Example resource 1 - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-Example resource 2 - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.
+Advanced CSS, Javascript integration, Web Accessibility, Performance optimisation & testing
 
 Author: Jonathan Peters
 Website: https://qms85.github.io/MyPortfolio/
